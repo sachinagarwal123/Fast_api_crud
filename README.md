@@ -1,9 +1,8 @@
-Implementation of Authentication and Authorization with FastAPI
-Step 1: Install the Virtual Environment
-Create a virtual environment to manage the dependencies for the FastAPI project. Use the command below to create a virtual environment:
+# Implementation of Authentication and Authorization with FastAPI
 
-bash
-Copy code
+## Step 1: Install the Virtual Environment  
+Create a virtual environment to manage the dependencies for the FastAPI project. Use the command below to create a virtual environment:  
+```bash
 python -m venv venv
 Step 2: Activate the Virtual Environment
 Activate the virtual environment on the Windows operating system:
@@ -29,7 +28,7 @@ bash
 Copy code
 pip install passlib[bcrypt]
 Step 5: Install SQLAlchemy
-Install the sqlalchemy library for SQL database connectivity in the FastAPI application:
+Install the SQLAlchemy library for SQL database connectivity in the FastAPI application:
 
 bash
 Copy code
