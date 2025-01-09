@@ -1,26 +1,36 @@
-Implementation of the Authentication and Authorization with FastAPI
-Step 1: Install the venv
-Create the virtual environment to manage the dependencies for the FastAPI project. Use the below command to install the venv.
+Implementation of Authentication and Authorization with FastAPI
+Step 1: Install the Virtual Environment
+Create a virtual environment to manage the dependencies for the FastAPI project. Use the command below to create a virtual environment:
 
+bash
+Copy code
 python -m venv venv
-py1
-Step 2: Acitviate the venv
-We can activate the virtual environment on the windows operating system.
+Step 2: Activate the Virtual Environment
+Activate the virtual environment on the Windows operating system:
 
+bash
+Copy code
 venv\Scripts\activate
-py4
-Step 3: Install the FastAPI and Uvicorn
-We can install the FastAPI and uvicorn within the virtual environment of the system.
+For macOS or Linux, you can activate the virtual environment using:
 
+bash
+Copy code
+source venv/bin/activate
+Step 3: Install FastAPI and Uvicorn
+Install FastAPI and Uvicorn within the virtual environment:
+
+bash
+Copy code
 pip install fastapi uvicorn
-py2-compressed
-Step 4: Install the passlib
-We can install the passlib library for the hashing passwords of the FastAPI Application.
+Step 4: Install Passlib
+Install the passlib library for hashing passwords in the FastAPI application:
 
+bash
+Copy code
 pip install passlib[bcrypt]
-py3-compressed
-Step 5: Install the sqlalchemy
-We can install the sqlalchemy library for the SQL database connectivity of the FastAPI application.
+Step 5: Install SQLAlchemy
+Install the sqlalchemy library for SQL database connectivity in the FastAPI application:
 
+bash
+Copy code
 pip install sqlalchemy
-py5-compressed
